@@ -27,6 +27,7 @@ The program uses matplotlib to visualize the grid at each generation, with optio
 The PlotGrid function handles visualization, including grid layout and cell representation.
 
 TECHNICAL DETAILS:
+
 -> Libraries Used: NumPy for numerical operations, SciPy for convolution (neighbor counting), matplotlib for visualization, and requests for fetching patterns from the web.
 
 -> Data Structures: 2D NumPy arrays represent the grid, with 0s for dead cells and 1s for live cells.
